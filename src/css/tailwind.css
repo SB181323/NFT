@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .style {
+        @apply flex  items-center ;
+    }
+    .col {
+        @apply flex flex-col  items-center ;
+    }
+    .round {
+        @apply rounded-[20px] ;
+    }
+    .HOVER {
+        @apply hover:scale-125 transition-all duration-300 cursor-pointer;
+    }
+    .hover-cart {
+        @apply hover:scale-110 transition-all duration-300 cursor-pointer;
+    }
+}
